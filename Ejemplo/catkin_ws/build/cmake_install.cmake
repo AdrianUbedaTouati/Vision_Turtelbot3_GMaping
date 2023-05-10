@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/cmake_install.cmake")
   include("/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/cmake_install.cmake")
   include("/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/turtlebot3/turtlebot3/cmake_install.cmake")
   include("/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/turtlebot3_msgs/cmake_install.cmake")

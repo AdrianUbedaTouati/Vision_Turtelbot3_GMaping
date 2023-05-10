@@ -35,6 +35,14 @@
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/gtest/googletest/CMakeFiles/test.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/gtest/googletest/CMakeFiles/gtest_main.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/install/strip.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/install/local.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/install.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/list_install_components.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/rebuild_cache.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/edit_cache.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/test.dir
+/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/load_model/CMakeFiles/_catkin_empty_exported_target.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/install/strip.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/install/local.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/install.dir
@@ -42,7 +50,6 @@
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/rebuild_cache.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/edit_cache.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/test.dir
-/home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/teleop_twist_keyboard/CMakeFiles/_catkin_empty_exported_target.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install/strip.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install/local.dir
 /home/pinguinito/Escritorio/VAR/Ejemplo/catkin_ws/build/turtlebot3/turtlebot3/CMakeFiles/install.dir

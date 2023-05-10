@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("load_model")
 subdirs("teleop_twist_keyboard")
 subdirs("turtlebot3/turtlebot3")
 subdirs("turtlebot3_msgs")
