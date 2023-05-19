@@ -1,23 +1,13 @@
-(en cada terminal nueva)
-export TURTLEBOT3_MODEL=waffle
-source devel/setup.bash
-
 Primera terminal:
-en catkin_ws$
- 
 roscore
 
 Segunda termina:
-en catkin_ws$ 
-
 catkin_make
 export TURTLEBOT3_MODEL=waffle
 source devel/setup.bash
 roslaunch load_model init.launch 
 
-Tercera terminal:
-en catkin_ws$ 
-
+Tercera terminal: 
 export TURTLEBOT3_MODEL=waffle
 source devel/setup.bash
 roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
