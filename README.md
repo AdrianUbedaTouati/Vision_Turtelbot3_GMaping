@@ -31,3 +31,4 @@ darle r
 Nos guardamos 10 fotos
 sale 1 cada x tiempo
 La practica va de combinar esas 10 fotos 
+
