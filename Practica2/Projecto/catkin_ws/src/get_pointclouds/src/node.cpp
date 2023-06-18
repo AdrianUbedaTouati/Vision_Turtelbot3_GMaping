@@ -6,6 +6,15 @@
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/visualization/cloud_viewer.h>
 #include <pcl/filters/voxel_grid.h>
+//Aniadido
+#include <iostream>
+#include <pcl/range_image/range_image.h>
+#include <pcl/io/pcd_io.h>
+#include <pcl/visualization/range_image_visualizer.h>
+#include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/features/range_image_border_extractor.h>
+#include <pcl/keypoints/narf_keypoint.h>
+
 
 pcl::PointCloud<pcl::PointXYZRGB>::Ptr visu_pc (new pcl::PointCloud<pcl::PointXYZRGB>);
 
@@ -17,7 +26,6 @@ void simpleVis ()
 	  viewer.showCloud (visu_pc);
 	  boost::this_thread::sleep(boost::posix_time::milliseconds(1000));
 	}
-
 }
 
 void callback(const pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr& msg)
@@ -35,6 +43,7 @@ void callback(const pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr& msg)
 	cout << "Puntos tras VG: " << cloud_filtered->size() << endl;
 
 	visu_pc = cloud_filtered;
+    //visu_pc = cloud;
 }
 
 int main(int argc, char** argv)
@@ -49,5 +58,4 @@ int main(int argc, char** argv)
   {
 	ros::spinOnce();
   }
-
 }

@@ -1,5 +1,16 @@
 #!/bin/bash
 
+gnome-terminal --tab --title="Terminal adicional" -- bash -c '
+    echo "Presiona Enter para terminar todos los procesos...";
+    read;
+    killall -9 roscore;
+    killall -9 roslaunch;
+    killall -9 rosrun;
+    killall -9 gnome-terminal;
+    killall gzserver;
+    killall gzclient; 
+    exec bash'
+
 # Directorio al que deseas navegar
 directorio="Projecto/catkin_ws"
 
